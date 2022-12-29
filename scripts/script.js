@@ -4,7 +4,7 @@ const tasksList = document.querySelector(".tasksList");
 
 todoButton.addEventListener('click', function (event) {
     event.preventDefault();
-   //Create "li" with the value of the task submited
+   //Create "li" with the value of the task submited then display
    const todoTaskDisplay = document.createElement("li");
    todoTaskDisplay.innerText = todoTask.value;
    tasksList.appendChild(todoTaskDisplay);
